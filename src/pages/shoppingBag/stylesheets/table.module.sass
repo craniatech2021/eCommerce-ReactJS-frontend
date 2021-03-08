@@ -1,0 +1,42 @@
+@import '../../../modules/mediaQuery/app'
+
+
+.outbox
+  font-size: 1rem
+.id
+  font-size: 0.7em
+.pic_outbox
+  max-width: 6em
+  padding: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  img
+    max-width: calc(100% - 1.3em)
+
+.title_outbox
+  display: flex
+  flex-direction: column
+  width: max-content
+  margin: 0
+
+.title
+  word-wrap: none !important
+  min-width: 6em
+  max-width: 8em
+  margin-bottom: 1em
+.qty_outbox
+  display: flex
+  flex-wrap: nowrap
+
+.btn
+  padding: 0 0.5em
+  margin: 0 0.5em
+
+@media screen and (max-width: $tablet)
+  .outbox
+    font-size: .7rem
+  .pic_outbox
+    font-size: .6rem
+  .btn
+    font-size: .5rem
