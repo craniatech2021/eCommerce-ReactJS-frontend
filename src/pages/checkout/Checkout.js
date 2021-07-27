@@ -30,7 +30,7 @@ export default class Checkout extends Component {
             <div className={styles.title}>
               Checkout
             <div className={styles.sub_title}>
-                Hi <b>{this.props.name}</b> Please review your items and press the confirm checkout button. You will enter your address information while your paying on PayPal!
+                Hi <b>{this.props.name}</b> Please review your items and press the confirm checkout button. You will enter your address information while your paying on PayPal
               </div>
             </div>
             {/* table */}
